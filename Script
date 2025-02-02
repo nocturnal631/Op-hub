@@ -1,0 +1,218 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Nocturnal hub",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Made By Nocturnal",
+   LoadingSubtitle = "OP HUB",
+   Theme = "Bloom", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "zuyig"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Nocturnal hub",
+      Subtitle = "Key System",
+      Note = "Get Key - From Nocturnal On Discord!", -- Use this to tell the user how to get a key
+      FileName = "zageyag", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Nocturnal7"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("Styles - 🔥", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("OP & Fun Styles✅")
+
+Rayfield:Notify({
+   Title = "Made By Nocturnal!",
+   Content = "Executed As Fast As Loki!⚡️",
+   Duration = 5,
+   Image = nil,
+})
+
+local MainButton = MainTab:CreateButton({
+   Name = "Loki Modded ⚡️ (PC & MOBILE - OP AND 7 ABILITIES)",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/A4teZnb4"))()
+   end,
+})
+
+local MainButton = MainTab:CreateButton({
+   Name = "Kaiser Modded (Executive & Key System😭",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bhusant/Pillar-chase/refs/heads/main/KeySystem"))()
+   end,
+})
+
+local MainButton = MainTab:CreateButton({
+   Name = "CR7 (GOAT) MOBILE ONLY⚠️",
+   Callback = function()
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Made By PresidentZuyi!",
+Text = "Script is in beta and PresidentZuyi (The Owner) is working on it!!", 
+
+Button1 = "Alright Master!",
+Button2 = "Cancel",
+Duration = 30 
+})
+while true do
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/CR7/refs/heads/main/CR7.lua"))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/84rU4mHU"))()
+wait()
+end
+   end,
+})
+
+local MainButton = MainTab:CreateButton({
+   Name = "Don Lorenzo🧟 (Fun To Use) Mobile Only 😭💔",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Styles/refs/heads/main/Zombie.lua"))()
+   end,
+})
+
+
+local MiscTab = Window:CreateTab("The Best Hubs!", nil) -- Title, Image
+local MiscSection = MiscTab:CreateSection("The Best Hubs You Will Ever See For Blue Lock Rivals!")
+
+local MiscButton = MiscTab:CreateButton({
+   Name = "N5 HUB (My Goat Nameless✌️)",
+   Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Blue-Lock:-Rivals-GET-FREE-KARASU-AND-OTOYA-STYLES-28209"))()
+   end,
+})
+
+local MiscButton = MiscTab:CreateButton({
+   Name = "Visual Beta (One of the best)🥶",
+   Callback = function()
+          loadstring(game:HttpGet("https://rawscripts.net/raw/Blue-Lock:-Rivals-Lock-Best-Free-Script-27507"))()
+   end,
+})
+
+local MiscButton = MiscTab:CreateButton({
+   Name = "Express Hub (Fun & Easy💯🔥)",
+   Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Best-Free-Universal-GUI-V6-27679"))()
+   end,
+})
+
+local MiscButton = MiscTab:CreateButton({
+   Name = "Apoc Hub (Smooth Key System & No Bugs)",
+   Callback = function()
+         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FIXED-FREEZING-and-Crashing-Apoc-Hub-Over-20-Games-28028"))()
+   end,
+})
+
+local TeleportTab = Window:CreateTab("Auto Save (GK)", nil) -- Title, Image
+local TeleportSection =  TeleportTab:CreateSection("One Of The Most Op Auto Saves Out There")
+
+local TeleportButton = TeleportTab:CreateButton({
+   Name = "Auto Save (GK) ",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Arbix--Hub/refs/heads/main/Blue!ock.lua"))()
+   end,
+})
+
+local TeleportButton = TeleportTab:CreateButton({
+   Name = "This was made for my boy skeleton🔥 (Joking Free For Everyone😭) ",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local TeleportButton = TeleportTab:CreateButton({
+   Name = "SHOUTOUT TO SKELETON 🔥💯 - PRESIDENTZUYI",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local StyleTab = Window:CreateTab("Any Style", nil) -- Title, Image
+local StyleSection = StyleTab:CreateSection("Get Any Style! Example Rin Shidou and so on....")
+
+local StyleButton = StyleTab:CreateButton({
+   Name = "Get Any Style - Made By GoatTouka🐐 (⚠️⚠️ YOU NEED REO STYLE FOR IT TO WORK!!⚠️⚠️",
+   Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Arbix-OP/refs/heads/main/SigmaSkibidiTOUKA.lua"))()
+   end,
+})
+
+local StyleButton = StyleTab:CreateButton({
+   Name = "Thank You For All The Support - PresidentZuyi 💯",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local StuffTab = Window:CreateTab("Extra Stuff", nil) -- Title, Image
+local StuffSection = StuffTab:CreateSection("Extra Stuff That Might Be Useful✌️")
+
+local StuffButton = StuffTab:CreateButton({
+   Name = "Mobile Keyboard",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/skripts/refs/heads/main/deltamobile-keyboard-kraxked",true))();
+   end,
+})
+
+local StuffButton = StuffTab:CreateButton({
+   Name = "Infinite Yield (Admin)",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local StuffButton = StuffTab:CreateButton({
+   Name = "Infinite Jump",
+   Callback = function()
+        local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+   end,
+})
+
+local Toggle = TeleportTab:CreateToggle({
+   Name = "Anti-Lag (OP)",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   -- The function that takes place when the toggle is pressed
+   -- The variable (Value) is a boolean on whether the toggle is true or false
+   end,
+})
+
+local Toggle = StyleTab:CreateToggle({
+   Name = "Anti-Detection (OP & Recommended)",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   -- The function that takes place when the toggle is pressed
+   -- The variable (Value) is a boolean on whether the toggle is true or false
+   end,
+})
+
+local Toggle = StuffTab:CreateToggle({
+   Name = "Crash Server (If it doesnt work ur ping does not fit the configuration",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   -- The function that takes place when the toggle is pressed
+   -- The variable (Value) is a boolean on whether the toggle is true or false
+   end,
+})
